@@ -728,18 +728,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abac2a341d1a8ef45a8d0255e83cf9a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hearts:
-  - {fileID: 147279440}
-  - {fileID: 1057929438}
-  - {fileID: 1184345532}
+  _rigidbody2D: {fileID: 1267675940}
   _groundCheck: {fileID: 1389823227}
-  _whatIsGround:
+  _groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  _extraJumpValue: 0
-  _checkRadius: 0.2
-  _jumpForce: 5
-  _health: 3
+  _speed: 5.07
+  _jumpPower: 5
 --- !u!114 &1267675945
 MonoBehaviour:
   m_ObjectHideFlags: 0
